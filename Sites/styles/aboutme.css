@@ -1,0 +1,111 @@
+:root{
+    --BGColor1: #96d2d8;
+    --BGColor2: #4b96c1;
+}
+
+*{
+    font-family: Arial;
+}
+
+body{
+    background-image: linear-gradient(to bottom,var(--BGColor1),var(--BGColor2));
+    height: 590px;
+}
+
+.Title{
+    color: wheat;
+    text-align: center;
+}
+
+.Links{
+    width: 25%;
+    text-align: center;
+    background-color: #377193;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    left: 38%;
+    top: 250px;
+}
+.YoutubeIcon img{
+    transition: 500ms height, 500ms width,850ms transform cubic-bezier(.67, .02, .79, 1.09);
+}
+
+.YoutubeIcon img:hover{
+    cursor: pointer;
+    width: 80px;
+    height: 45px;
+}
+
+.ytText{
+    font-family: Arial;
+    font-size: 0px;
+    color: wheat;
+    font-weight: 600;
+    transition: 850ms font-size;
+    position: relative;
+    bottom: 45px;
+    top: 0px;
+    user-select: none;
+}
+
+.Youtube .ytText .YoutubeIcon:hover{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.Youtube{
+    border: 15px;
+}
+
+.QuickLinks{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 25px;
+    left: 5px;
+    color: azure;
+    font-weight: 700;
+}
+
+.Info{
+    background-image: linear-gradient(rgb(0,215,255),rgb(0,0,0,0.03));
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    font-family: arial;
+    color: aliceblue;
+    width: 650px;
+    left: 310px;
+    font-weight: 700;
+}
+
+.Info p{
+    font-size: 25px;
+}
+
+.Back{
+    font-size: 50px;
+    font-family: arial;
+    color: cornsilk;
+    position: absolute;
+    top: 550px;
+    font-weight: 700;
+}
+.Back a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.DiscordIcon{
+    padding-left: 25px;
+}
+
+.DiscordIcon img{
+    transition: height 765ms,width 765ms;
+}
+
+.DiscordIcon img:hover{
+    width: 80px;
+    height: 45px;
+}
