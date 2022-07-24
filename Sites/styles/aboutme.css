@@ -94,21 +94,20 @@ body {
     top: 550px;
     font-weight: 700;
 }
-
-.Back a {
+.Back a{
     text-decoration: none;
     color: cornsilk;
 }
 
-.DiscordIcon {
+.DiscordIcon{
     padding-left: 25px;
 }
 
-.DiscordIcon img {
-    transition: height 765ms, width 765ms;
+.DiscordIcon img{
+    transition: height 765ms,width 765ms;
 }
 
-.DiscordIcon img:hover {
+.DiscordIcon img:hover{
     width: 80px;
     height: 45px;
 }
